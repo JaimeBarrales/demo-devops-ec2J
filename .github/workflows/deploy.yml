@@ -23,10 +23,10 @@ jobs:
             echo "🚀 Deploy iniciado"
 
             if [ ! -d "[demo-devops-ec2]" ]; then
-              git clone [https://github.com/JaimeBarrales/demo-devops-ec2j]
+              git clone [https://github.com/JaimeBarrales/demo-devops-ec2J]
             fi
 
-            cd [demo-devops-ec2j]
+            cd [demo-devops-ec2J]
 
             git fetch origin
             git reset --hard origin/main
